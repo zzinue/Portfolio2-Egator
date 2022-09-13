@@ -10,7 +10,8 @@ import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+// Import Swiper stylesob
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 const data = [
@@ -38,9 +39,14 @@ const data = [
 const Testimonials = () => {
     return (
         <section id='testimonials'>
-            <h5></h5>
-            <h2></h2>
-            <Swiper className="container testimonials__container">
+            <h5>Review from Clients</h5>
+            <h2>Testimonials</h2>
+            <Swiper className="container testimonials__container"
+                // install Swiper modules
+                modules={[Pagination]}
+                spaceBetween={40}
+                slidesPerView={1}
+                pagination={{ clickable: true }}>
                 {
                     data.map(({ avatar, name, review, index }) => {
                         return (
