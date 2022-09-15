@@ -4,7 +4,7 @@ import { BsCheck2 } from 'react-icons/bs'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>Waht I Offer</h5>
+            <h5>What I Offer</h5>
             <h2>Services</h2>
             <div className="container services__container">
                 <article className='service'>
@@ -13,78 +13,68 @@ const Services = () => {
                     </div>
                     <ul className='service__list'>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Gathering and evaluating user requirements, in collaboration with product managers and engineers.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Designing graphic user interface elements, like menus, tabs and widgets.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Build page navigation buttons and search fields.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
-                        </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
-                        </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Develop UI mockups and prototypes that clearly illustrate how sites function and look like.</p>
                         </li>
                     </ul>
                 </article>
                 {/*  UX/IX  */}
                 <article className='service'>
                     <div className="service__head">
-                        <h3>Web Development </h3>
+                        <h3>Frontend Development </h3>
                     </div>
                     <ul className='service__list'>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Maintaining and improving website.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Design mobile-based features.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p>Collaborate with back-end developers and web designers to improve usability.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Ensure high quality graphic standards and brand consistency.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Optimize applications for maximum speed.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p>Help back-end developers with coding and troubleshooting.</p>
                         </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
-                        </li>
+
                     </ul>
                 </article>
                 {/*     Web Development */}
                 <article className='service'>
                     <div className="service__head">
-                        <h3>Content Creation</h3>
+                        <h3>Backend Development</h3>
                     </div>
                     <ul className='service__list'>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Gather and address technical and design requirements.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Participate in the entire application lifecycle, focusing on coding and debugging.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Perform UI tests to optimize performance.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Manage cutting-edge technologies to improve legacy applications.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
+                            <p> Data Management Systems and Web Hosting Platforms.</p>
                         </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Lorem ipsum dolor sit, amet consectetur elit.</p>
-                        </li>
+
                     </ul>
                 </article>
                 {/*   Content Creation*/}

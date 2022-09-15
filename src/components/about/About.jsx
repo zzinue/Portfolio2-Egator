@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import victor3 from '../../assets/victor3.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -12,7 +12,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="About Image" />
+                        <img src={victor3} alt="About Image" />
                     </div>
                 </div>
                 <div className="about__content">
@@ -33,7 +33,9 @@ const About = () => {
                             <small>20+ Completed</small>
                         </article>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde sapiente itaque reiciendis tenetur mollitia deleniti a, nobis dolorum, fugit qui quidem eaque accusantium cupiditate non voluptatibus consequatur id libero laboriosam?</p>
+                    <p>
+                        I'm Victor, a passionate web developer bringing you programming and projects for the future. I've buil many full-stack web aplications from design to implementation. This includes prototyping, logic and backend integration.
+                    </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

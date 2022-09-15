@@ -1,5 +1,5 @@
  header {
-     height: 200vh;
+     height: 150vh;
      padding-top: 7rem;
      overflow: hidden;
  }
@@ -38,9 +38,9 @@
  /* image me */
  
  .me {
-     background: linear-gradient(var(--color-primary), transparent);
+     /* background: linear-gradient(var(--color-bg), transparent); */
      width: 22rem;
-     height: 30rem;
+     height: 209rem;
      position: absolute;
      left: calc(50% - 11rem);
      transform: calc(50% - 11rem);
