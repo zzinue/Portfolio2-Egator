@@ -6,7 +6,7 @@ import { SiTwitter } from 'react-icons/si'
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className='footer__logo'>Victor</a>
+            <a href="#" className='footer__logo'>Victor Guerrero</a>
             <ul className='permalinks'>
                 <li><a href="#">Home</a> </li>
                 <li><a href="#about">About</a> </li>
