@@ -4,8 +4,8 @@ import { BsCheck2 } from 'react-icons/bs'
 const Services = () => {
     return (
         <section id='services'>
-            <h5>What I Offer</h5>
-            <h2>Services</h2>
+            <h5>What Can I Do</h5>
+            <h2>For you</h2>
             <div className="container services__container">
                 <article className='service'>
                     <div className="service__head">
@@ -36,21 +36,11 @@ const Services = () => {
                             <p> Maintaining and improving website.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
-                            <p> Design mobile-based features.</p>
-                        </li>
-                        <li><BsCheck2 className='service__list-icon' />
                             <p>Collaborate with back-end developers and web designers to improve usability.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
                             <p> Ensure high quality graphic standards and brand consistency.</p>
                         </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Optimize applications for maximum speed.</p>
-                        </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p>Help back-end developers with coding and troubleshooting.</p>
-                        </li>
-
                     </ul>
                 </article>
                 {/*     Web Development */}
@@ -64,9 +54,6 @@ const Services = () => {
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
                             <p> Participate in the entire application lifecycle, focusing on coding and debugging.</p>
-                        </li>
-                        <li><BsCheck2 className='service__list-icon' />
-                            <p> Perform UI tests to optimize performance.</p>
                         </li>
                         <li><BsCheck2 className='service__list-icon' />
                             <p> Manage cutting-edge technologies to improve legacy applications.</p>

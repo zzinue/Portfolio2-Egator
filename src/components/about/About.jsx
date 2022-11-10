@@ -20,21 +20,21 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>6+ Months Working</small>
+                            <small>Kodemia Bootcamp 2022</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>10+ local</small>
+                            <h5>Projects</h5>
+                            <small>10+ Frontend</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
-                            <h5>Projecst</h5>
-                            <small>20+ Completed</small>
+                            <h5>Frameworks</h5>
+                            <small>React</small>
                         </article>
                     </div>
                     <p>
-                        I'm Victor, a passionate web developer bringing you programming and projects for the future. I've buil many full-stack web aplications from design to implementation. This includes prototyping, logic and backend integration.
+                        I'm Victor, a passionate web developer bringing you programming and projects for the future. I've buil many Frontend web aplications from design to implementation. This includes prototyping, logic, request api and renderized.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

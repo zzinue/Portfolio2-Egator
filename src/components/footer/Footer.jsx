@@ -17,9 +17,9 @@ const Footer = () => {
                 <li><a href="#contact">Contact</a> </li>
             </ul>
             <div className="footer__socials">
-                <a href="https://facebook.com"><RiFacebookFill /></a>
-                <a href="https://instagram.com"><BsInstagram /></a>
-                <a href="https://twitter.com"><SiTwitter /></a>
+                <a href="https://www.facebook.com/victorzzinue/"><RiFacebookFill /></a>
+                {/*   <a href="https://instagram.com"><BsInstagram /></a> */}
+                <a href="https://twitter.com/zzinueleon"><SiTwitter /></a>
             </div>
             <div className="footer__copyright">
                 <small>&copy; Victor Guerrero. All rights reserved.</small>
